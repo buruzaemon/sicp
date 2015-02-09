@@ -5,7 +5,7 @@ The real journey begins here.
 # LICENSE
 Any/all code found here is covered by the MIT License. Caveat emptor!
 
-Copyright &copy; 2014, Brooke M. Fujita 
+Copyright &copy; 2015, Brooke M. Fujita 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
