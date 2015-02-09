@@ -1,0 +1,4 @@
+chicken scheme
+==============
+1. downloaded latest release from http://code.call-cc.org/
+2. make PLATFORM=<platform> PREFIX=<destination> 
