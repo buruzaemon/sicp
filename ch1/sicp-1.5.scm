@@ -1,12 +1,12 @@
 ;; ex 1.5 
 ;;
 ;; Normal-order: 
-;;   all of the operand arguments are expanded,
+;;   all of the operator are expanded,
 ;;   and only when primitive arguments are left
 ;;   will the evaluation take place
 ;;
 ;; Applicative-order
-;;   the arguments are evaluated first
+;;   the operatands (arguments) are evaluated first
 ;;
 ;;   in our case here, the 2nd argument test will
 ;;   never be evaluated as long as the (= x 0) test
