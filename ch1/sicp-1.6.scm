@@ -1,4 +1,4 @@
-;; ex 1.5 
+;; ex 1.6 
 ;;
 (define (sqrt-iter guess x)
   (if (good-enough? guess x)
@@ -6,14 +6,12 @@
   (sqrt-iter (improve guess x) x)))
 
 (define (improve guess x)
-  (print "in improve")
   (average guess (/ x guess)))
 
 (define (average x y)
   (/ (+ x y) 2))
 
 (define (good-enough? guess x)
-  (print "in good-enough?")
   (< (abs (- (square guess) x)) 0.001))
 
 (define (square x)
